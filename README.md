@@ -1,4 +1,4 @@
 # yesbolkulanbekov.github.io
 Portfolio website
 
-Go to [yesbolkulanbekov.github.io](yesbolkulanbekov.github.io)
+Go to [yesbolkulanbekov.github.io](https://yesbolkulanbekov.github.io)
