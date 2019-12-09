@@ -9,33 +9,76 @@ categories: jekyll update
 ---
 
 
-## Indoor Navigation
+## Image View Extensions
 
+![](/assets/phone.png){: style="float: align-right; width: 360px;"}
+Download and display an image in an image view with a single line of code Nuke will check if the image exists in the memory cache, and if it does, will instantly display it. If not, the image data will be loaded, decoded, processed, and decompressed in the background
+{:style="clear: right"}
 
-# Image View Extensions
-
-<img align="right" src="https://user-images.githubusercontent.com/1567433/59150381-d34beb80-8a22-11e9-8d9a-6b1527ffc9e1.png" width="360"/>
+### In a List
 
 Download and display an image in an image view with a single line of code:
-
-~~~swift
-Nuke.loadImage(with: url, into: imageView)
-~~~
-
-Nuke will check if the image exists in the memory cache, and if it does, will instantly display it. If not, the image data will be loaded, decoded, processed, and decompressed in the background.
-
-> See [Image Pipeline Overview](#h_design) to learn more.
+Nuke will check if the image exists in the memory cache, and if it does, will instantly display it. If not, the image data will be loaded, decoded, processed, and decompressed in the background
 
 ### In a List
 
 When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
 
-```swift
-func collectionView(_ collectionView: UICollectionView,
-                    cellForItemAt indexPath: IndexPath)
-                    -> UICollectionViewCell {
-    Nuke.loadImage(with: url, into: cell.imageView)
-}
-```
 
-> The requests also get canceled automatically when the views are deallocated. Call `Nuke.cancelRequest(for: imageView)` to cancel the request manually.
+
+## Image View Extensions
+
+<img align="right" src="/assets/phone.png" width="360"/>
+<img align="right" src="/assets/phone.png" width="360"/>
+
+
+### In a List
+
+Download and display an image in an image view with a single line of code:
+
+Nuke will check if the image exists in the memory cache, and if it does, will instantly display it. If not, the image data will be loaded, decoded, processed, and decompressed in the background
+
+### In a List
+
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+When you request a new image for the existing view, Nuke will prepare it for reuse and cancel any outstanding requests for the view. Mangaging images in lists has never been easier.
+
+line
+
+## Image View Extensions
+
+![](/assets/phone.png){: style="float: align-left; width: 360px;"}
+Something about the first picture.
+{:style="clear: left"}
+
+
+## Image View Extensions
+
+![](/assets/phone.png){: style="float: align-left; width: 360px;"}
+{:.ruby}
+    Some code here
+{:style="clear: left"}
+
+
+
+A simple paragraph with an ID attribute.
+{: #para-one}
+
+> A blockquote with a title
+{:title="The blockquote title"}
+{: #myid}
+
+
+## Trying new method
+
+![](/assets/phone.png){: style="float: align-left; width: 360px;"}
+This is a description of the project I have done
+
+![](/assets/phone.png){: style="float: align-left; width: 360px;"}
+This is a description of the project I have done
+{:style="align: top"}
