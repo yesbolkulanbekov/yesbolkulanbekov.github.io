@@ -13,4 +13,3 @@ $checklist-screenshot-image-path: '/assets/img/blog/atomic-squirrel/checklist-sc
 
 a.bg-checklist:hover {
   @include gray-overlay-image(0.8, $checklist-screenshot-image-path, 0, 0);
-}
