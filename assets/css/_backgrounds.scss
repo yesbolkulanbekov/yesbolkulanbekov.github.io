@@ -13,3 +13,248 @@ $checklist-screenshot-image-path: '/assets/img/blog/atomic-squirrel/checklist-sc
 
 a.bg-checklist:hover {
   @include gray-overlay-image(0.8, $checklist-screenshot-image-path, 0, 0);
+}
+
+
+.iPhone{
+  margin: auto;
+	width:85%;
+	/*height:587px;*/
+	padding:15px;
+	background:#f8f8f8;
+	border-radius:40px;
+	border:1px solid #797979;
+	box-shadow: 0 0 0 2px rgba(200,200,200,.4) inset,
+				0 0 0 3px rgba(255,255,255,.8) inset,
+				0 0 0 4px rgba(79,79,79,.08) inset,
+				0 0 0 5px rgba(200,200,200,.08) inset,
+				0 0 0 4px rgba(255,255,255,.2) inset,
+				0 0 15px 0 rgba(79,79,79,.4) inset;
+}
+.iPhone .iHead{
+	min-height:50px;
+}
+.iPhone .iHead .iTop,
+.iPhone .iBot{
+	margin:0 auto;
+	text-align:center;
+}
+.iPhone .iHead .iTop{
+	width:65px;
+}
+.iPhone .iHead .iTop .iCon{
+	height:4px;
+	width:40px;
+	margin-top:17px;
+	position:relative;
+	border-radius:4px;
+	background:#030303;
+}
+.iPhone .iHead .iTop .iCon,
+.iPhone .iHead .iTop .iCon:before,
+.iPhone .iHead .iTop .iCon:after,
+.iPhone .iGo,
+.iPhone .iScreen .iStatusBar .iNet,
+.iPhone .iScreen .iStatusBar .iNetBall,
+.iPhone .iScreen .iStatusBar .iWifiIcon,
+.iPhone .iScreen .iStatusBar .iWifiIcon:before,
+.iPhone .iScreen .iStatusBar .iTime,
+.iPhone .iScreen .iStatusBar .iBattery,
+.iPhone .iScreen .iStatusBar .iBattIcon,
+.iPhone .iScreen .iStatusBar .iPower,
+.iPhone .iScreen .iMenuIcon .iIcon{
+	display:inline-block;
+}
+.iPhone .iHead .iTop .iCon:before,
+.iPhone .iHead .iTop .iCon:after,
+.iPhone .iScreen .iStatusBar .iBattIcon:after{
+	content:'';
+	position:absolute;
+	border-radius:50%;
+}
+.iPhone .iHead .iCon:before{
+	top:-2px;
+	left:-20px;
+	width:8px;
+	height:8px;
+	border:1px solid #030303;
+	background:#060b2b;
+	box-shadow:0 0 3px rgba(255,255,255,.7) inset;
+}
+.iPhone .iHead .iTop .iCon:after{
+	top:-17px;
+	width:5px;
+	height:5px;
+	background:#272727;
+	border:1px solid #030303;
+}
+.iPhone .iScreen{
+	/*height:455px;*/
+	/*min-height:480px;*/
+	border:1px solid #000;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.iPhone .iGo{
+	width:40px;
+	height:40px;
+	margin-top:10px;
+	border-radius:50%;
+	position:relative;
+	background: #fff; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #fff 0%, #ccc 24%, #000 50%, #ccc 79%, #fff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#fff), color-stop(24%,#ccc), color-stop(50%,#000), color-stop(79%,#ccc), color-stop(100%,#fff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #fff 0%,#ccc 24%,#000 50%,#ccc 79%,#fff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #fff 0%,#ccc 24%,#000 50%,#ccc 79%,#fff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #fff 0%,#ccc 24%,#000 50%,#ccc 79%,#fff 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #fff 0%,#ccc 24%,#000 50%,#ccc 79%,#fff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#fff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.iPhone .iGo:after{
+	left:2px;
+	top:2px;
+	content:'';
+	width:36px;
+	height:36px;
+	background:#fff;
+	position:absolute;
+	border-radius:inherit;
+}
+
+.iPhone .iScreen .iStatusBar{
+	color:#fff;
+	height:15px;
+	font-size:10px;
+	text-align:center;
+}
+.iPhone .iScreen .iStatusBar .iNet,
+.iPhone .iScreen .iStatusBar .iTime{
+	float:left;
+}
+.iPhone .iScreen .iStatusBar .iNet{
+	width:110px;
+	line-height:12px;
+	padding-left:5px;
+	text-align:left;
+}
+.iPhone .iScreen .iStatusBar .iNetBall,
+.iPhone .iScreen .iNavi .iDot{
+	width:6px;
+	height:6px;
+	background:#fff;
+	border-radius:50%;
+	border:1px solid #fff;
+}
+.iPhone .iScreen .iStatusBar .iNetBall.iEmpty,
+.iPhone .iScreen .iNavi .iDot.iEmpty{
+	background:transparent
+}
+.iPhone .iScreen .iStatusBar .iWifi{
+	position:relative;
+	transform:scale(0.08);
+}
+.iPhone .iScreen .iStatusBar .iWifiIcon{
+	top:-135px;
+	padding:25px;
+	position:absolute;
+}
+.iPhone .iScreen .iStatusBar .iWifiIcon,
+.iPhone .iScreen .iStatusBar .iWifiIcon:before{
+	border-radius:50%;
+	border:60px double transparent;
+	border-top-color:#fff;
+}
+.iPhone .iScreen .iStatusBar .iWifiIcon:before{
+	width:0;
+	height:0;
+	content:'';
+}
+.iPhone .iScreen .iStatusBar .iBattery{
+	float:right;
+	line-height:10px;
+	padding-right:5px;
+}
+.iPhone .iScreen .iStatusBar .iBattIcon{
+	width:20px;
+	height:10px;
+	padding:1px;
+	position:relative;
+	border-radius:2px;
+	border:1px solid #fff;
+}
+.iPhone .iScreen .iStatusBar .iBattIcon:after{
+	top:1px;
+	left:100%;
+	width:3px;
+	height:5px;
+	background:#fff;
+	border-radius:0 2px 2px 0;
+}
+.iPhone .iScreen .iStatusBar .iPower{
+	float:left;
+	width:67%;
+	height:100%;
+	background:#fff;
+	vertical-align:top;
+}
+
+.iPhone .iScreen .iMenuIcon{
+	padding:15px;
+}
+.iPhone .iScreen .iBottomTab{
+	height:66px;
+	padding:5px 15px;
+	background:#84727e;
+	box-sizing:border-box;
+}
+.iPhone .iScreen .iMenuIcon > div,
+.iPhone .iScreen .iBottomTab > div{
+	padding:0 8px;
+	margin-bottom:8px;
+	text-align:center;
+}
+.iPhone .iScreen .iMenuIcon .iIcon,
+.iPhone .iScreen .iBottomTab .iIcon{
+	color:#fff;
+	width:40px;
+	height:40px;
+	font-size:24px;
+	background:#fff;
+	border-radius:8px;
+	line-height:40px;
+	text-align:center;
+	display:table;
+}
+.iPhone .iScreen .iMenuIcon .iIconText,
+.iPhone .iScreen .iBottomTab .iIconText{
+	color:#fff;
+	font-size:9px;
+	display:block;
+}
+.iPhone .iScreen .iNavi{
+	height:5px;
+}
+.iPhone .iScreen .iNavi .iDot{
+	margin-top:-10px;
+	vertical-align:top;
+	display: inline-block;
+}
+
+/*Black Iphone*/
+.iPhone.black,
+.iPhone.black .iGo:after{
+	background:#000;
+}
+.iPhone.black .iHead .iTop .iCon{
+	background:#444;
+}
+.iPhone.black .iGo{
+	background: #000; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #444 0%, #999 24%, #000 50%, #999 79%, #444 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#444), color-stop(24%,#999), color-stop(50%,#000), color-stop(79%,#999), color-stop(100%,#fff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #444 0%,#999 24%,#000 50%,#999 79%,#444 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #444 0%,#999 24%,#000 50%,#999 79%,#444 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #444 0%,#999 24%,#000 50%,#999 79%,#444 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #444 0%,#999 24%,#000 50%,#999 79%,#444 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444', endColorstr='#444',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
