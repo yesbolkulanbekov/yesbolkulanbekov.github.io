@@ -267,7 +267,7 @@ h6, .h6 { font-size: .75rem }
 
 .p2  { padding: 1rem }
 .py2 { padding-top: 1rem; padding-bottom: 1rem }
-.px2 { padding-left: 1rem; padding-right: 1rem }
+.px2 { padding-left: 1rem; padding-right: 0rem }
 
 .p3  { padding: 2rem }
 .py3 { padding-top: 2rem; padding-bottom: 2rem }
@@ -430,7 +430,7 @@ h6, .h6 { font-size: .75rem }
   }
 
   .sm-col-4 {
-    width: 46%;
+    width: 40%;
   }
 
   .sm-col-5 {
@@ -446,7 +446,7 @@ h6, .h6 { font-size: .75rem }
   }
 
   .sm-col-8 {
-    width: 54%;
+    width: 60%;
   }
 
   .sm-col-9 {
