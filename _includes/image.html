@@ -1,1 +1,12 @@
-<img data-src="{% include image-url.html path=include.path external=include.external %}" alt="{{ include.alt }}" class="lazyload{% if include.class %} {{ include.class }}{% endif %}"{% if include.style %} style="{{ include.style }}"{% endif %}>
+
+
+<!-- <img
+  data-src="{% include image-url.html path=include.path external=include.external %}"
+  alt="{{ include.alt }}"
+  class="lazyload{% if include.class %} {{ include.class }}{% endif %}"{% if include.style %}
+  style="{{ include.style }}"{% endif %}
+> -->
+
+<video controls autoplay loop muted playsinline preload="auto">
+  <source src="{% include image-url.html path=include.path external=include.external %}" type="video/mp4">
+</video>
