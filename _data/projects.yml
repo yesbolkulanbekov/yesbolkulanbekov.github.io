@@ -28,3 +28,13 @@
     3. Unity
   url: "https://www.gruntwork.io"
   image: "SpacerAR.mp4"
+
+- name: "Dark Side"
+  date: "2019"
+  description: |
+    Loyalty app for bar customers
+  paragraphTitle: What I did
+  paragraphText: |
+    Wrote the whole app
+  url: "https://www.gruntwork.io"
+  image: "dark_side.mp4"
