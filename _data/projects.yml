@@ -38,3 +38,13 @@
     Wrote the whole app
   url: "https://www.gruntwork.io"
   image: "dark_side.mp4"
+
+- name: "FruitStory"
+  date: "2019"
+  description: |
+    App for ordering produce
+  paragraphTitle: What I did
+  paragraphText: |
+    Wrote the whole app
+  url: "https://www.gruntwork.io"
+  image: "fruitStory.mp4"
