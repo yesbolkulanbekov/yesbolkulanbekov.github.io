@@ -58,3 +58,13 @@
     Wrote the whole app
   url: "https://www.gruntwork.io"
   image: "kap.mp4"
+
+- name: "Alltours"
+  date: "2018"
+  description: |
+    App for finding tours
+  paragraphTitle: What I did
+  paragraphText: |
+    Wrote the whole app
+  url: "https://www.gruntwork.io"
+  image: "alltours.mp4"
