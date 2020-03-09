@@ -68,3 +68,13 @@
     Wrote the whole app
   url: "https://www.gruntwork.io"
   image: "alltours.mp4"
+
+- name: "Kazakh Invest"
+  date: "2018"
+  description: |
+    App for managing investments
+  paragraphTitle: What I did
+  paragraphText: |
+    VIPER. Business card recognition
+  url: "https://www.gruntwork.io"
+  image: "kazinvest.mp4"
