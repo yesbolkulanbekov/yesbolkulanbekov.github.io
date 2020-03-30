@@ -78,3 +78,13 @@
     VIPER. Business card recognition
   url: "https://www.gruntwork.io"
   image: "kazinvest.mp4"
+
+- name: "Circle Messenger|Signal"
+  date: "2018"
+  description: |
+    App for sending messages
+  paragraphTitle: What I did
+  paragraphText: |
+    Did the thing
+  url: "https://www.gruntwork.io"
+  image: "signal.mp4"
