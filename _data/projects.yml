@@ -88,3 +88,23 @@
     Did the thing
   url: "https://www.gruntwork.io"
   image: "signal.mp4"
+
+- name: "React Native view for iOS|Traveroo"
+  date: "2020 March"
+  description: |
+    App for audio tours
+  paragraphTitle: What I did
+  paragraphText: |
+    Did the thing
+  url: "https://www.gruntwork.io"
+  image: "traveroo.mp4"
+
+- name: "Alan Radio"
+  date: "2020 August"
+  description: |
+    HLS Radio
+  paragraphTitle: What I did
+  paragraphText: |
+    Did the thing
+  url: "https://www.gruntwork.io"
+  image: "alan.mp4"
