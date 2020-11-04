@@ -3,10 +3,13 @@
     <a href="{{ site.url }}" class="button py2 button-transparent nav-button caps">{{ site.name }}</a>
   </div>
   <ul class="right list-reset m0 nav-collapse">
-    {% for nav_item in site.nav.main %}
-      <li class="inline-block m0">
-        <a href="{{ nav_item[1] }}" class="button button-transparent py2 h6 nav-button caps{% if page.nav_item == nav_item[0] %} link-color{% endif %}">{{ nav_item[0] }}</a>
-      </li>
+    {% for external_url_hash in site.contact_urls %}
+      {% assign external_url = external_url_hash[1] %}
+      <a href="{{ external_url.url }}" target="_blank" class="gray button button-transparent py2">
+        <i class="fa fa-fw fa-lg fa-{{ external_url.icon }}"></i>
+        <!-- style="font-size: 70%" -->
+        <!-- <span style="font-size: 100%">{{ external_url.label }}</span> -->
+      </a>
     {% endfor %}
   </ul>
 </nav>
