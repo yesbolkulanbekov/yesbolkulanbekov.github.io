@@ -17,7 +17,16 @@
   url: "https://www.gruntwork.io"
   image: "in.mp4"
 
-  
+- name: "Zhelayak"
+  date: "2020 December - 2021 January"
+  description: |
+    E-commerce
+  paragraphTitle: What I did
+  paragraphText: |
+    Built the app
+  url: "https://www.zhelayak.kz"
+  image: "jel.mp4"
+
 - name: "Accessible Kazakhstan"
   date: "2020 July"
   description: |
