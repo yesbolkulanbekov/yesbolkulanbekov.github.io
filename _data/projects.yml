@@ -2,8 +2,14 @@
 - name: "Indoor Navigation"
   date: "2019"
   description: |
-    Indoor navigation app that uses bluetooth beacon technology, with a dedicated interface
-    for visually impaired.
+    Indoor navigation app that uses bluetooth beacon technology. Bluetooth beacons
+    allowed us to get accurate location information for indoor. App helps your visitors find
+    their destination in real-time and without deviations. App has a map the with the most
+    important points of interest. Users can switch between floors.
+    User can select a destination and the route is automatically drawn.
+
+    App has a dedicated interface for visually impaired. This mode has accessibility features with a
+    voice guided navigation.
 
   videos: More videos
   youtubeLinks:
@@ -14,8 +20,9 @@
       name: Indoor Navigation for Visually Impaired[youtube].
       url: https://youtu.be/acRknIE-cMQ
 
-  paragraphTitle: My role
+  paragraphTitle: "Technology"
   paragraphText: |
+    I used SceneKit to draw and animate the maps
 
   urlLabel: App Store
   url: "https://apps.apple.com/kz/app/nu-library-navigation/id1465566141"
@@ -24,119 +31,174 @@
 - name: "Zhelayak"
   date: "2020 December - 2021 January"
   description: |
-    E-commerce
-  paragraphTitle: What I did
-  paragraphText: |
-    Built the app
-  url: "https://www.zhelayak.kz"
+    Online supermarket that 24 hour a day.
+    Delivery is in 15 minutes. You can browse and search goods,
+    add them to the basket and buy with many convenient options.
+
+  videos: Website
+  youtubeLinks:
+    first:
+      name: zhelayak.kz
+      url: "https://www.zhelayak.kz"
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/zhelayak/id1554319313"
+
   image: "jel.mp4"
 
 - name: "Accessible Kazakhstan"
   date: "2020 July"
   description: |
-    Accessibility
-  paragraphTitle: What I did
+    Accessible Kazakhstan is online map of Kazakhstan cities
+    with information about the accessibility of buildings and services.
+    This map allows people of all categories of disability to move around their
+    cities freely, pland their trips ahead before visiting a place.
+    The map is dotted with green, yellow and red labels indicating the levels of
+    accessibility that buildings can provide.
+    If the site is not on the map users can request the addition of the building.
+    Also you can voice your concerns about the lack of accessibility to local authorities.
+
+  videos: Links
+  youtubeLinks:
+    first:
+      name: Website. doskaz.kz
+      url: "https://www.doskaz.kz"
+    second:
+      name: "Source code"
+      url: "https://github.com/zedkz/doskaz_ios"
+
+  paragraphTitle: Technology
   paragraphText: |
-    Did the thing
-  url: "https://www.gruntwork.io"
+    I extensively used custom container view controllers
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/доступный-казахстан/id1521204272"
   image: "doskaz.mp4"
 
 - name: "Spacer AR"
-  date: "2019"
+  date: "2019 December"
   description: |
-    App for shopping using AR
+    App for shopping online where you can see and "feel" the products
+    by placing the the products in your environment.
   paragraphTitle: What I did
   paragraphText: |
-    Wrote methods used for communication between 3 Layers of the app.
+    The core UI of the app was written in React Native. The AR model loading
+    and rendering is in Unity3D. There was a need for a layer that glues these technologies.
+    I wrote the methods used for communication between 3 Layers of the app.
     1. React
     2. Native iOS code
     3. Unity
-  url: "https://www.gruntwork.io"
   image: "SpacerAR.mp4"
 
 - name: "Dark Side"
   date: "2019"
   description: |
-    Loyalty app for bar customers
-  paragraphTitle: What I did
-  paragraphText: |
-    Wrote the whole app
-  url: "https://www.gruntwork.io"
+    Loyalty program for customers.
+    They can collect bonuses after each purchase and use them
+    to pay for future purchases. There are levels that gets updated after each visit
+    and provide more bonuses.
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/dark-side/id1471327665"
   image: "dark_side.mp4"
 
-- name: "FruitStory"
+- name: "eKAP"
   date: "2019"
   description: |
-    App for ordering produce
-  paragraphTitle: What I did
-  paragraphText: |
-    Wrote the whole app
-  url: "https://www.gruntwork.io"
-  image: "fruitStory.mp4"
+    Project and task management app for KazAtomProm.
+    The the app is a thin client for open sourced popular project
+    management API called Redmine written in Ruby.
+    App has all essential features of a task manager:
+      Multiple project support,
+      Issue tracking
+      Role based access and the employee catalog.
 
-- name: "KazAtomProm"
-  date: "2019"
-  description: |
-    App for managing tasks
-  paragraphTitle: What I did
-  paragraphText: |
-    Wrote the whole app
-  url: "https://www.gruntwork.io"
+  videos: Links
+  youtubeLinks:
+    first:
+      name: Redmine
+      url: "https://www.redmine.org/"
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/ekap/id1482794031"
   image: "kap.mp4"
 
 - name: "Alltours"
   date: "2018"
   description: |
-    App for finding tours
-  paragraphTitle: What I did
-  paragraphText: |
-    Wrote the whole app
-  url: "https://www.gruntwork.io"
+    App for browsing and ordering travel tours.
+    Get all the latest news about interesting tours and locations.
+    Find cheapest and hot tours. Get the fresh information about
+    promos and discounted tours. Learn about the locations
+    and hotels you are about to visit with photos and
+    detailed descriptions.
+
+    Request new tours and visas
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/alltours-kz/id1400433713"
   image: "alltours.mp4"
 
 - name: "Kazakh Invest"
   date: "2018"
   description: |
-    App for managing investments
-  paragraphTitle: What I did
+    CRM app for investment managers of Kazakh Invest.
+    App lets managers organize the communication between managers
+    and investors. Users of the app can plan meetings with investors,
+    record and track the resolutions of those meetings.
+    App also features the contact list and the ability to scan
+    business cards to conveniently save the contact.
+
+  paragraphTitle: Technologies
   paragraphText: |
-    VIPER. Business card recognition
-  url: "https://www.gruntwork.io"
+    Business card recognition using Vision and Tesseract OCR Engine
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/kazakhinvest-crm/id1318083179"
   image: "kazinvest.mp4"
 
 - name: "Circle Messenger|Signal"
   date: "2018"
   description: |
-    App for sending messages
+    This is a clone of the open source Signal Messenger.
+    I deployed to a custom server the backend and
+    many other infrastructure elements required for the messenger to work.
+    The client needed an internal safe messenger for a small firm.
+    The app has custom Firebise backend for user management.
+    Admin can create/update/delete users instead of using SMS service as in the
+    original Signal.
 
-  videos: More videos
-  youtubeLinks:
-    first:
-      name: Signal Messenger Demo[youtube].
-      url: https://youtu.be/lxAODvCB00w
-
-  paragraphTitle: What I did
-  paragraphText: |
-    Did the thing
-  url: "https://www.gruntwork.io"
+  urlLabel: Demo video
+  url: "https://youtu.be/lxAODvCB00w"
   image: "signal.mp4"
 
 - name: "React Native view for iOS|Traveroo"
   date: "2020 March"
   description: |
-    App for audio tours
-  paragraphTitle: What I did
-  paragraphText: |
-    Did the thing
-  url: "https://www.gruntwork.io"
+    Traveroo was an app written using React Native
+    where tourist can learn about a city using audio tours.
+    Mapbox has the map and a good turn-by turn navigation API.
+    I wrote a custom React Native component that includes the Mapbox
+    map and it's navigation API.
+
   image: "traveroo.mp4"
 
 - name: "Alan Radio"
   date: "2020 August"
   description: |
-    HLS Radio
-  paragraphTitle: What I did
-  paragraphText: |
-    Did the thing
-  url: "https://www.gruntwork.io"
+    Simple HTTP Live Streaming radio app.
+    App has audio interruptions handling, background play
+    and actions from Control Center. You can share the app with friends.
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/alanradio/id1516678973"
   image: "alan.mp4"
+
+
+- name: "FruitStory"
+  date: "2019"
+  description: |
+    Standard e-commerce app for ordering produce
+    with product categories, basket and online payment.
+
+  image: "fruitStory.mp4"
