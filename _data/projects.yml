@@ -3,10 +3,10 @@
   date: "2019"
   description: |
     Indoor navigation app that uses bluetooth beacon technology. Bluetooth beacons
-    allowed us to get accurate location information for indoor. App helps your visitors find
-    their destination in real-time and without deviations. App has a map the with the most
+    allowed us to get accurate location information indoors. App helps visitors find
+    their destination in real-time and without deviations. App has a map with the most
     important points of interest. Users can switch between floors.
-    User can select a destination and the route is automatically drawn.
+    Users can select a destination and the route is automatically drawn.
 
     App has a dedicated interface for visually impaired. This mode has accessibility features with a
     voice guided navigation.
@@ -22,7 +22,7 @@
 
   paragraphTitle: "Technology"
   paragraphText: |
-    I used SceneKit to draw and animate the maps
+    I used SceneKit to draw and animate the maps and GameKit for pathfinding.
 
   urlLabel: App Store
   url: "https://apps.apple.com/kz/app/nu-library-navigation/id1465566141"
@@ -31,8 +31,8 @@
 - name: "Zhelayak"
   date: "2020 December - 2021 January"
   description: |
-    Online supermarket that 24 hour a day.
-    Delivery is in 15 minutes. You can browse and search goods,
+    Online supermarket open 24 hours a day.
+    Delivery is in 15 minutes. You can browse and search products,
     add them to the basket and buy with many convenient options.
 
   videos: Website
@@ -49,10 +49,10 @@
 - name: "Accessible Kazakhstan"
   date: "2020 July"
   description: |
-    Accessible Kazakhstan is online map of Kazakhstan cities
+    Accessible Kazakhstan is an online map of Kazakhstan's cities
     with information about the accessibility of buildings and services.
     This map allows people of all categories of disability to move around their
-    cities freely, pland their trips ahead before visiting a place.
+    cities freely, plan their trips ahead before visiting a place.
     The map is dotted with green, yellow and red labels indicating the levels of
     accessibility that buildings can provide.
     If the site is not on the map users can request the addition of the building.
@@ -79,15 +79,15 @@
   date: "2019 December"
   description: |
     App for shopping online where you can see and "feel" the products
-    by placing the the products in your environment.
+    by placing the products in your environment.
   paragraphTitle: What I did
   paragraphText: |
     The core UI of the app was written in React Native. The AR model loading
-    and rendering is in Unity3D. There was a need for a layer that glues these technologies.
-    I wrote the methods used for communication between 3 Layers of the app.
-    1. React
+    and rendering was in Unity3D. There was a need for a layer that glues these technologies.
+    I wrote the methods used for communication between 3 layers of the app.
+    1. React Native
     2. Native iOS code
-    3. Unity
+    3. Unity3D
   image: "SpacerAR.mp4"
 
 - name: "Dark Side"
@@ -95,8 +95,8 @@
   description: |
     Loyalty program for customers.
     They can collect bonuses after each purchase and use them
-    to pay for future purchases. There are levels that gets updated after each visit
-    and provide more bonuses.
+    to pay for future purchases. There are levels for the user that gets updated after each visit
+    and provides more bonuses.
 
   urlLabel: App Store
   url: "https://apps.apple.com/kz/app/dark-side/id1471327665"
@@ -106,11 +106,11 @@
   date: "2019"
   description: |
     Project and task management app for KazAtomProm.
-    The the app is a thin client for open sourced popular project
+    The app is a thin client for open sourced popular project
     management API called Redmine written in Ruby.
     App has all essential features of a task manager:
       Multiple project support,
-      Issue tracking
+      Issue tracking,
       Role based access and the employee catalog.
 
   videos: Links
@@ -128,12 +128,12 @@
   description: |
     App for browsing and ordering travel tours.
     Get all the latest news about interesting tours and locations.
-    Find cheapest and hot tours. Get the fresh information about
+    Find cheapest and hot tours. Get fresh information about
     promos and discounted tours. Learn about the locations
     and hotels you are about to visit with photos and
     detailed descriptions.
 
-    Request new tours and visas
+    Request new tours and visas.
 
   urlLabel: App Store
   url: "https://apps.apple.com/kz/app/alltours-kz/id1400433713"
@@ -143,11 +143,11 @@
   date: "2018"
   description: |
     CRM app for investment managers of Kazakh Invest.
-    App lets managers organize the communication between managers
-    and investors. Users of the app can plan meetings with investors,
+    App lets managers organize the communication between them
+    and the investors. Users of the app can plan meetings with investors,
     record and track the resolutions of those meetings.
     App also features the contact list and the ability to scan
-    business cards to conveniently save the contact.
+    business cards to conveniently save a contact.
 
   paragraphTitle: Technologies
   paragraphText: |
@@ -163,7 +163,7 @@
     This is a clone of the open source Signal Messenger.
     I deployed to a custom server the backend and
     many other infrastructure elements required for the messenger to work.
-    The client needed an internal safe messenger for a small firm.
+    The client needed an safe internal messenger for a small firm.
     The app has custom Firebise backend for user management.
     Admin can create/update/delete users instead of using SMS service as in the
     original Signal.
@@ -176,7 +176,7 @@
   date: "2020 March"
   description: |
     Traveroo was an app written using React Native
-    where tourist can learn about a city using audio tours.
+    where a tourist could learn about a city using audio tours.
     Mapbox has the map and a good turn-by turn navigation API.
     I wrote a custom React Native component that includes the Mapbox
     map and it's navigation API.
@@ -187,7 +187,7 @@
   date: "2020 August"
   description: |
     Simple HTTP Live Streaming radio app.
-    App has audio interruptions handling, background play
+    App features audio interruptions handling, background play
     and actions from Control Center. You can share the app with friends.
 
   urlLabel: App Store
