@@ -5,10 +5,19 @@
     Indoor navigation app that uses bluetooth beacon technology, with a dedicated interface
     for visually impaired.
 
+  videos: More videos
+  youtubeLinks:
+    first:
+      name: Indoor navigation using Bluetooth beacons[youtube].
+      url: https://youtu.be/7tRf57SmSxk
+    second:
+      name: Indoor Navigation for Visually Impaired[youtube].
+      url: https://youtu.be/acRknIE-cMQ
+
   paragraphTitle: My role
   paragraphText: |
 
-  url: "https://wwww.apple.com"
+  url: "https://apps.apple.com/kz/app/nu-library-navigation/id1465566141"
   image: "in.mp4"
 
 - name: "Zhelayak"
@@ -98,6 +107,13 @@
   date: "2018"
   description: |
     App for sending messages
+
+  videos: More videos
+  youtubeLinks:
+    first:
+      name: Signal Messenger Demo[youtube].
+      url: https://youtu.be/lxAODvCB00w
+
   paragraphTitle: What I did
   paragraphText: |
     Did the thing
