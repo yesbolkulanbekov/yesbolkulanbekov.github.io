@@ -21,6 +21,10 @@ thumbnail_path: "profile-photos/wolf.jpg"
 
 # URLs
 contact_urls:
+  resume:
+    url: "/assets/resume.pdf"
+    label: "Resume"
+    icon: "file"
   github:
     url: "https://github.com/yesbolkulanbekov"
     label: "GitHub"
