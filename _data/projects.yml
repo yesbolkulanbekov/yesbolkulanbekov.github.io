@@ -1,4 +1,12 @@
 
+- name: "Mechta.kz"
+  date: "2022 - Present"
+  description: |
+    Mechta.kz is ...
+  urlLabel: App Store
+  url: "https://apps.apple.com/us/app/mechta-kz/id1610963362"
+  image: "mechta.mp4"
+
 - name: "Indoor Navigation"
   date: "2019"
   description: |
