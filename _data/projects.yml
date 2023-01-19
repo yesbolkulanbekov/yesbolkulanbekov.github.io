@@ -2,7 +2,21 @@
 - name: "Mechta.kz"
   date: "2022 - Present"
   description: |
-    Mechta.kz is ...
+    iPhone app for the biggest and oldest electronics retailer in Kazakhstan' market.
+    App lets you<br>
+      - Browse, search and filter a huge catalogue of products<br>
+      - Learn everything about a product, get information about the prices, discounts, specs<br>
+      - Read and post reviews about a product<br>
+      - Get recommendations based on your catalogue browsing history<br>
+      - Save the favourite products for later and compare them to other similar items<br>
+      - Earn bonuses after each purchase and get detailed info about your them<br>
+      - Save a basket of products and purchase them later<br>
+    <br>
+    App is localized for 2 languages, Kazakh and Russian.
+    We used Uber's RIB architecture for the project. It made updating product pages and
+    the product basket a lot easier.
+
+
   urlLabel: App Store
   url: "https://apps.apple.com/us/app/mechta-kz/id1610963362"
   image: "mechta.mp4"
@@ -92,10 +106,10 @@
   paragraphText: |
     The core UI of the app was written in React Native. The AR model loading
     and rendering was in Unity3D. There was a need for a layer that glues these technologies.
-    I wrote the methods used for communication between 3 layers of the app.
-    1. React Native
-    2. Native iOS code
-    3. Unity3D
+    I wrote the methods used for communication between 3 layers of the app.<br>
+    1. React Native<br>
+    2. Native iOS code<br>
+    3. Unity3D<br>
   image: "SpacerAR.mp4"
 
 - name: "Dark Side"
