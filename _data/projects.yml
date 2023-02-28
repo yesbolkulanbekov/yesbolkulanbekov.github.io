@@ -24,13 +24,13 @@
 - name: "Indoor Navigation"
   date: "2019"
   description: |
-    A major university campus was fast growing each year and navigating around it
+    A major university campus was growing fast each year and navigating around it
     became problematic. They needed an app for that purpose, specifically, inside
     the library showing a path from the user's current location to the desired 
     destination. Location data had to be accurate and more importantly app had 
     to be accessible for visually-impaired people. The bluetooth beacons 
     should be used for location data.
-
+    <br><br>
     I built the app from the scratch, designed the backend API, 
     wrote the design document used by the team members (designer, backend devs and 
     project managers). Core of the app is the map of the floors of the library.
@@ -39,7 +39,7 @@
     We vigorously tested many configurations for beacon placement. We implemented location 
     search/pathfinding feature with Apple's GameKit and the special interface
     for visually impaired people with turn based navigation.
-
+    <br><br>
     With the final configuration of the beacons we were able to get the desired accuracy of +/- 1 or 1.5 meters.
     Visitors find their destination in real-time and without the help of the library staff.
     They can switch between floors, can select a destination and the route is automatically drawn.
