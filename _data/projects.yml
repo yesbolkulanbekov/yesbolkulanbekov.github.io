@@ -34,7 +34,7 @@
     I built the app from the scratch, designed the backend API, 
     wrote the design document used by the team members (designer, backend devs and 
     project managers). Core of the app is the map of the floors of the library.
-    I built the floor maps with SpriteKit, framework from Apple for 2D building games. 
+    I built the floor maps with SpriteKit, framework from Apple for building 2D games. 
     I attached all 600 beacons on the walls of 4 floors of the library by trial and error.
     We vigorously tested many configurations for beacon placement. We implemented location 
     search/pathfinding feature with Apple's GameKit and the special interface
