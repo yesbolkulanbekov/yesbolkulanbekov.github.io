@@ -28,11 +28,11 @@
     became problematic. They needed an app for that purpose, specifically, inside
     the library showing a path from the user's current location to the desired 
     destination. Location data had to be accurate and more importantly app had 
-    to be accessible for visually-impaired people. The bluetooth beacons 
+    to be accessible for visually-impaired people. Bluetooth beacons 
     should be used for location data.
     <br><br>
     I built the app from the scratch, designed the backend API, 
-    wrote the design document used by the team members (designer, backend devs and 
+    wrote the design document used by the team members (designer, back-end devs and 
     project managers). Core of the app is the map of the floors of the library.
     I built the floor maps with SpriteKit, framework from Apple for building 2D games. 
     I attached all 600 beacons on the walls of 4 floors of the library by trial and error.
