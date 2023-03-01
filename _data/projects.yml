@@ -113,7 +113,7 @@
 - name: "Spacer AR"
   date: "2019 December"
   description: |
-    Client was developing an app for shopping online where you can see and "feel"
+    Client has been developing an app for shopping online where you can see and "feel"
     the products by "placing" them in your environment using AR.
     The core UI of the app was written in React Native. The AR model loading
     and rendering was in Unity3D. There was a need for a layer that glues these technologies.
