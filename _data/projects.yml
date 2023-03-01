@@ -113,16 +113,22 @@
 - name: "Spacer AR"
   date: "2019 December"
   description: |
-    App for shopping online where you can see and "feel" the products
-    by placing the products in your environment.
-  paragraphTitle: What I did
-  paragraphText: |
+    Client was developing an app for shopping online where you can see and "feel"
+    the products by "placing" them in your environment using AR.
     The core UI of the app was written in React Native. The AR model loading
     and rendering was in Unity3D. There was a need for a layer that glues these technologies.
-    I wrote the methods used for communication between 3 layers of the app.<br>
+    React native dev needed an API to control the AR view written in Unity.
+    <br>
+
+    I wrote the bridge code used for communication between 2 layers of the app.<br>
     1. React Native<br>
-    2. Native iOS code<br>
-    3. Unity3D<br>
+    2. Unity3D<br>
+    
+    Bridge consisted of event handlers from Unity and React Native and the methods to call
+    from React Native. 
+    <br>
+
+    Result is the React Native UI component that displays objects in the real world.
   image: "SpacerAR.mp4"
 
 - name: "Dark Side"
