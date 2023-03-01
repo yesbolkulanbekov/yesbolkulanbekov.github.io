@@ -119,6 +119,7 @@
     and rendering was in Unity3D. There was a need for a layer that glues these technologies.
     React native dev needed an API to control the AR view written in Unity.
     <br>
+    <br>
 
     I wrote the bridge code used for communication between 2 layers of the app.<br>
     1. React Native<br>
@@ -126,6 +127,7 @@
     
     Bridge consisted of event handlers from Unity and React Native and the methods to call
     from React Native. 
+    <br>
     <br>
 
     Result is the React Native UI component that displays objects in the real world.
