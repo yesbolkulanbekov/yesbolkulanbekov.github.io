@@ -81,6 +81,29 @@
 
   image: "jel.mp4"
 
+- name: "Spacer AR"
+  date: "2019 December"
+  description: |
+    Client has been developing an app for shopping online where you can see and "feel"
+    the products by "placing" them in your environment using AR.
+    The core UI of the app was written in React Native. The AR model loading
+    and rendering was in Unity3D. There was a need for a layer that glues these technologies.
+    React native dev needed an API to control the AR view written in Unity.
+    <br>
+    <br>
+
+    I wrote the bridge code used for communication between 2 layers of the app.<br>
+    1. React Native<br>
+    2. Unity3D<br>
+    
+    Bridge consisted of event handlers from Unity and React Native and the methods to call
+    from React Native. 
+    <br>
+    <br>
+
+    Result is the React Native UI component that displays objects in the real world.
+  image: "SpacerAR.mp4"
+
 - name: "Accessible Kazakhstan"
   date: "2020 July"
   description: |
@@ -109,29 +132,6 @@
   urlLabel: App Store
   url: "https://apps.apple.com/kz/app/доступный-казахстан/id1521204272"
   image: "doskaz.mp4"
-
-- name: "Spacer AR"
-  date: "2019 December"
-  description: |
-    Client has been developing an app for shopping online where you can see and "feel"
-    the products by "placing" them in your environment using AR.
-    The core UI of the app was written in React Native. The AR model loading
-    and rendering was in Unity3D. There was a need for a layer that glues these technologies.
-    React native dev needed an API to control the AR view written in Unity.
-    <br>
-    <br>
-
-    I wrote the bridge code used for communication between 2 layers of the app.<br>
-    1. React Native<br>
-    2. Unity3D<br>
-    
-    Bridge consisted of event handlers from Unity and React Native and the methods to call
-    from React Native. 
-    <br>
-    <br>
-
-    Result is the React Native UI component that displays objects in the real world.
-  image: "SpacerAR.mp4"
 
 - name: "Dark Side"
   date: "2019"
