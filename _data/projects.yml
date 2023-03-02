@@ -113,7 +113,7 @@
     for the app. The main content of the app is the data about accessibility levels of
     buildings, cafes, hospitals and other public places. And obviously that data needed
     to be displayed by the app.
-
+    <br><br>
     We created an app with the map of the city as the main UI.
     The map is dotted with green, yellow and red labels indicating the levels of
     accessibility that buildings can provide. If you tap on the dot you can get
