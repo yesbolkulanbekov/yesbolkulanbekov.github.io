@@ -107,7 +107,7 @@
 - name: "Accessible Kazakhstan"
   date: "2020 July"
   description: |
-    City of Pavlodar, KZ had an app for disabled people showing the accessibility of 
+    City of Pavlodar, KZ developed and app for disabled people showing the accessibility of 
     the city. They wanted to expand the project to every major city in the country.
     The new app needed a gamification feature to motivate volunteers to create content
     for the app. The main content of the app is the data about accessibility levels of
@@ -121,7 +121,7 @@
     videos and an accessibility summary. Volunteers can add a new place and track its 
     status. Also you can voice your concerns about the lack of accessibility to 
     local authorities. 
-    
+
   videos: Links
   youtubeLinks:
     first:
