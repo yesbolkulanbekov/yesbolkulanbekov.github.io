@@ -63,23 +63,21 @@
   url: "https://apps.apple.com/kz/app/nu-library-navigation/id1465566141"
   image: "in.mp4"
 
-- name: "Zhelayak"
-  date: "2020 December - 2021 January"
+
+- name: "Circle Messenger|Signal"
+  date: "2018"
   description: |
-    Online supermarket open 24 hours a day.
-    Delivery is in 15 minutes. You can browse and search products,
-    add them to the basket and buy with many convenient options.
+    This is a clone of the open source Signal Messenger.
+    I deployed to a custom server the backend and
+    many other infrastructure elements required for the messenger to work.
+    The client needed an safe internal messenger for a small firm.
+    The app has custom Firebise backend for user management.
+    Admin can create/update/delete users instead of using SMS service as in the
+    original Signal.
 
-  videos: Website
-  youtubeLinks:
-    first:
-      name: zhelayak.kz
-      url: "https://www.zhelayak.kz"
-
-  urlLabel: App Store
-  url: "https://apps.apple.com/kz/app/zhelayak/id1554319313"
-
-  image: "jel.mp4"
+  urlLabel: Demo video
+  url: "https://youtu.be/lxAODvCB00w"
+  image: "signal.mp4"
 
 - name: "Spacer AR"
   date: "2019 December"
@@ -103,6 +101,24 @@
 
     Result is the React Native UI component that displays objects in the real world.
   image: "SpacerAR.mp4"
+
+- name: "Zhelayak"
+  date: "2020 December - 2021 January"
+  description: |
+    Online supermarket open 24 hours a day.
+    Delivery is in 15 minutes. You can browse and search products,
+    add them to the basket and buy with many convenient options.
+
+  videos: Website
+  youtubeLinks:
+    first:
+      name: zhelayak.kz
+      url: "https://www.zhelayak.kz"
+
+  urlLabel: App Store
+  url: "https://apps.apple.com/kz/app/zhelayak/id1554319313"
+
+  image: "jel.mp4"
 
 - name: "Accessible Kazakhstan"
   date: "2020 July"
@@ -205,21 +221,6 @@
   urlLabel: App Store
   url: "https://apps.apple.com/kz/app/kazakhinvest-crm/id1318083179"
   image: "kazinvest.mp4"
-
-- name: "Circle Messenger|Signal"
-  date: "2018"
-  description: |
-    This is a clone of the open source Signal Messenger.
-    I deployed to a custom server the backend and
-    many other infrastructure elements required for the messenger to work.
-    The client needed an safe internal messenger for a small firm.
-    The app has custom Firebise backend for user management.
-    Admin can create/update/delete users instead of using SMS service as in the
-    original Signal.
-
-  urlLabel: Demo video
-  url: "https://youtu.be/lxAODvCB00w"
-  image: "signal.mp4"
 
 - name: "React Native view for iOS|Traveroo"
   date: "2020 March"
