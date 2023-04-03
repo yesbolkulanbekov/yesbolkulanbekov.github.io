@@ -67,13 +67,21 @@
 - name: "Circle Messenger|Signal"
   date: "2018"
   description: |
-    This is a clone of the open source Signal Messenger.
-    I deployed to a custom server the backend and
-    many other infrastructure elements required for the messenger to work.
-    The client needed an safe internal messenger for a small firm.
-    The app has custom Firebise backend for user management.
-    Admin can create/update/delete users instead of using SMS service as in the
-    original Signal.
+    The client needed a safe, encrypted internal messenger for a small firm.
+    Custom user management was also requested to replace the SMS service.
+    I was tasked to make a clone of the open source Signal Messenger, both iOS-client
+    and server sides.
+    <br>
+    <br>
+    I deployed to a custom server the backend on AWS and Heroku
+    and many other infrastructure elements required for the messenger to work.
+    Made necessary changes to the iOS client so it works with the custom server.
+    <br>
+    <br>
+    Result is the fully functioning clone of the Signal messenger with custom 
+    Firebise backend for user management.
+    Admin can create/update/delete users instead of using SMS service. The admin UI
+    is in the settings of the app.
 
   urlLabel: Demo video
   url: "https://youtu.be/lxAODvCB00w"
