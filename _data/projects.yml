@@ -73,14 +73,14 @@
     and server sides.
     <br>
     <br>
-    I deployed to a custom server the backend on AWS and Heroku
-    and many other infrastructure elements required for the messenger to work.
-    Made necessary changes to the iOS client so it works with the custom server.
+    I deployed to a custom server the backend and many other infrastructure elements
+    required for the messenger to work using AWS and Heroku.
+    Made necessary changes to the iOS client so it can work with the server.
     <br>
     <br>
     Result is the fully functioning clone of the Signal messenger with custom 
     Firebise backend for user management.
-    Admin can create/update/delete users instead of using SMS service. The admin UI
+    Admin can create/update/delete users instead of using the SMS service. The admin UI
     is in the settings of the app.
 
   urlLabel: Demo video
